@@ -1,7 +1,12 @@
+:root {
+    --pink: rgb(241, 19, 126);
+    --white: #ffffff;
+    --indigo: #2f0051;
+  }
+
 body{
     margin: 0 auto;
     width: 70vw;
-
     background-image: linear-gradient(to top, #b8d2f0 0%, #e7f0fd 100%);
 }
 
@@ -10,7 +15,7 @@ body{
     justify-content: space-between;
     font-size: 20px;
     height: 100vh;
-    width: 80vw;
+    width: 85vw;
 }
 
 .textContainer{
@@ -23,14 +28,9 @@ body{
     margin-top: 1em;
     height: 12em;
     width: 20em;
-    border-radius:  25px;
-    border-top-right-radius: 25px;
-    background-color: darkgreen;
-    /* background-image: url(./pocketWatch.jpeg); */
+    background-image: url(./white-rabbit.jpeg);
     background-repeat: no-repeat;
 }
-
-
 
 .object{
     border-radius: 50%;
@@ -38,11 +38,13 @@ body{
     width: 12em;
 }
 
-
-
 #circle1{
     background-color: blueviolet;
     display: none;
-    position: relative;
-   
+    position: relative; 
+    color: #2f0051;
+}
+
+#reaction{
+    color: var(--indigo);
 }
